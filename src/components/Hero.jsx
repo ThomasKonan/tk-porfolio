@@ -40,14 +40,16 @@ export const Hero = () => {
             variants={fadeInUp}
             whileHover={{ scale: 1.02 }}
           >
-            TK Tech
+            PedroTech
           </motion.h1>
           <motion.h2 className="hero-subtitle" variants={fadeInUp}>
             {" "}
-            Software Engineer
+            Creative Developer & Designer
           </motion.h2>
           <motion.p className="hero-description" variants={fadeInUp}>
-            Insert Professional Summary
+            I craft beautiful digital experiences that combine stunning design
+            with powerful functionality. Specializing in modern web applications
+            and interactive user interfaces.
           </motion.p>
 
           <motion.div className="cta-buttons" variants={staggerContainer}>
@@ -76,6 +78,9 @@ export const Hero = () => {
             <motion.a href="https://linkedin.com" target="_blank">
               <i className="fab fa-linkedin"> </i>
             </motion.a>
+            <motion.a href="https://twitter.com" target="_blank">
+              <i className="fab fa-twitter"> </i>
+            </motion.a>
           </motion.div>
         </motion.div>
 
@@ -102,7 +107,7 @@ export const Hero = () => {
               {`const aboutMe: DeveloperProfile = {
   codename: "TK Tech",
   origin: "🌍 Somewhere between a coffee shop and a terminal",
-  role: "Fullstack Web Developer",
+  role: "Fullstack Web Sorcerer",
   stack: {
     languages: ["JavaScript", "TypeScript", "SQL"],
     frameworks: ["React", "Next.js", "TailwindCSS", "Supabase"],
